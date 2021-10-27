@@ -115,8 +115,8 @@
               "type": "ImageView",
               "layout_width": "match_parent",
               "layout_height": "wrap_content",
-              "layout_marginLeft":"4sp",
-              "layout_marginRight":"4sp",
+              "layout_margin":"4sp",
+              "scaleType":"centerCrop",
               "src": "https://img.freepik.com/free-psd/corporate-digital-business-marketing-promotion-facebook-cover-photo-web-banner_161103-103.jpg?size=626&ext=jpg",
               "layout_gravity":"center_horizontal",
               "onClick": {
