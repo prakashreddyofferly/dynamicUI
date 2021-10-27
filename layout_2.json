@@ -12,6 +12,21 @@
       "background": "#efefef",
       "children": [
         {
+          "type": "include",
+          "layout": "RelativeLayoutExample2",
+          "padding": "16dp",
+          "paddingBottom": "0dp"
+        },
+        {
+          "type": "include",
+          "layout": "DataDrivenExample",
+          "padding": "16dp",
+          "paddingBottom": "0dp",
+          "data": {
+            "user": "@{0}"
+          }
+        },
+        {
           "type": "CardView",
           "layout_width": "match_parent",
           "layout_height": "wrap_content",
@@ -124,22 +139,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "include",
-          "layout": "RelativeLayoutExample2",
-          "padding": "16dp",
-          "paddingBottom": "0dp"
-        },
-       
-        {
-          "type": "include",
-          "layout": "DataDrivenExample",
-          "padding": "16dp",
-          "paddingBottom": "0dp",
-          "data": {
-            "user": "@{0}"
-          }
         },
         {
           "type": "include",
