@@ -131,16 +131,7 @@
           "padding": "16dp",
           "paddingBottom": "0dp"
         },
-        {
-          "type": "include",
-          "layout": "SimpleDataBindingExample",
-          "padding": "16dp",
-          "paddingBottom": "0dp",
-          "data": {
-            "user": "@{0}",
-            "sec": "@{sec}"
-          }
-        },
+       
         {
           "type": "include",
           "layout": "DataDrivenExample",
