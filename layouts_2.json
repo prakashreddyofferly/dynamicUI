@@ -14,10 +14,10 @@
         "children": [
           {
             "type": "ImageView",
-            "src": "@drawable/star_filled",
+            "src": "https://www.jumpstarttech.com/files/2018/08/Network-Profile.png",
             "id": "center",
-            "layout_width": "wrap_content",
-            "layout_height": "wrap_content",
+            "layout_width": "100sp",
+            "layout_height": "100sp",
             "layout_centerVertical": true,
             "layout_centerHorizontal": true
           },
