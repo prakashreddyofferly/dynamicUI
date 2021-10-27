@@ -29,31 +29,6 @@
               "background": "#ffffff",
               "children": [
                 {
-                  "type": "TextView",
-                  "singleLine": "@bool/true",
-                  "text": "TextView",
-                  "textColor": "#000000",
-                  "textSize": "12sp"
-                },
-                {
-                  "type": "TextView",
-                  "layout_width": "match_parent",
-                  "gravity": "right",
-                  "html": "<b>TextView</b> with <font color=#cc8322><i>HTML</i></font> content.",
-                  "textSize": "14sp"
-                },
-                {
-                  "type": "ImageView",
-                  "layout_width": "@dimen/sixty",
-                  "layout_height": "@dimen/sixty",
-                  "src": "@drawable/github_icon",
-                  "layout_gravity":"center_horizontal",
-                  "onClick": {
-                    "someKey": "someValue"
-                  },
-                  "layout_marginRight": "8dp"
-                },
-                {
                   "type": "LinearLayout",
                   "orientation": "horizontal",
                   "layout_width": "match_parent",
@@ -93,6 +68,31 @@
                       "gravity": "center"
                     }
                   ]
+                },
+                {
+                  "type": "TextView",
+                  "singleLine": "@bool/true",
+                  "text": "TextView",
+                  "textColor": "#000000",
+                  "textSize": "12sp"
+                },
+                {
+                  "type": "TextView",
+                  "layout_width": "match_parent",
+                  "gravity": "right",
+                  "html": "<b>TextView</b> with <font color=#cc8322><i>HTML</i></font> content.",
+                  "textSize": "14sp"
+                },
+                {
+                  "type": "ImageView",
+                  "layout_width": "@dimen/sixty",
+                  "layout_height": "@dimen/sixty",
+                  "src": "@drawable/github_icon",
+                  "layout_gravity":"center_horizontal",
+                  "onClick": {
+                    "someKey": "someValue"
+                  },
+                  "layout_marginRight": "8dp"
                 },
                 {
                   "type": "Button",
