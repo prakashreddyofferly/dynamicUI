@@ -97,9 +97,8 @@
                 {
                   "type": "Button",
                   "layout_height": "?Theme_AppCompat:actionBarSize",
-                  "layout_width": "150dp",
+                  "layout_width": "match_parent",
                   "gravity": "center",
-                  "layout_gravity":"right",
                   "layout_marginTop": "10dp",
                   "text": "New",
                   "textColor": "#ffffff",
