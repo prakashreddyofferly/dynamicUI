@@ -101,13 +101,13 @@
                   "gravity": "center",
                   "layout_gravity":"right",
                   "layout_marginTop": "10dp",
-                  "text": "SHIFT",
+                  "text": "New",
                   "textColor": "#ffffff",
                   "background": {
                     "@": {
                       "type": "ripple",
-                      "mask": "#aaaa99",
-                      "defaultBackground": "#aaaa99",
+                      "mask": "#000000",
+                      "defaultBackground": "#000000",
                       "content": {
                         "type": "shape",
                         "shape": "rectangle",
