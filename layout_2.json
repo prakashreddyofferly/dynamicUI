@@ -98,10 +98,11 @@
                   "type": "Button",
                   "layout_height": "?Theme_AppCompat:actionBarSize",
                   "layout_width": "150dp",
-                  "gravity": "right",
+                  "gravity": "center",
+                  "layout_gravity":"right",
                   "layout_marginTop": "10dp",
                   "text": "SHIFT",
-                  "textColor": "?Theme_AppCompat:actionMenuTextColor",
+                  "textColor": "#ffffff",
                   "background": {
                     "@": {
                       "type": "ripple",
@@ -113,11 +114,11 @@
                         "children": [
                           {
                             "type": "solid",
-                            "color": "@{theme.color}"
+                            "color": "#000000"
                           }
                         ]
                       },
-                      "color": "#ff0000"
+                      "color": "#000000"
                     }
                   }
                 }
